@@ -1,0 +1,24 @@
+============================= test session starts =============================
+platform win32 -- Python 3.7.6, pytest-4.6.2, py-1.8.0, pluggy-0.12.0 -- C:\Users\barba\codenation\venv\Scripts\python.exe
+cachedir: .pytest_cache
+rootdir: C:\Users\barba\codenation\data-science-3
+collecting ... collected 4 items
+
+test_submit.py::test_q1 PASSED                                           [ 25%]
+test_submit.py::test_q2 PASSED                                           [ 50%]
+test_submit.py::test_q3 PASSED                                           [ 75%]
+test_submit.py::test_q4 PASSED                                           [100%]
+
+============================== warnings summary ===============================
+C:\Users\barba\codenation\venv\lib\site-packages\ipywidgets\widgets\widget_selection.py:9
+C:\Users\barba\codenation\venv\lib\site-packages\ipywidgets\widgets\widget_selection.py:9
+  C:\Users\barba\codenation\venv\lib\site-packages\ipywidgets\widgets\widget_selection.py:9: DeprecationWarning: Using or importing the ABCs from 'collections' instead of from 'collections.abc' is deprecated since Python 3.3,and in 3.9 it will stop working
+    from collections import Mapping, Iterable
+
+C:\Users\barba\codenation\venv\lib\site-packages\sklearn\utils\deprecation.py:143
+  C:\Users\barba\codenation\venv\lib\site-packages\sklearn\utils\deprecation.py:143: FutureWarning: The sklearn.metrics.classification module is  deprecated in version 0.22 and will be removed in version 0.24. The corresponding classes / functions should instead be imported from sklearn.metrics. Anything that cannot be imported from sklearn.metrics is now part of the private API.
+    warnings.warn(message, FutureWarning)
+
+-- Docs: https://docs.pytest.org/en/latest/warnings.html
+--- generated xml file: C:\Users\barba\codenation\data-science-3\output.xml ---
+==================== 4 passed, 3 warnings in 3.43 seconds =====================

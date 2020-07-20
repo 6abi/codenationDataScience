@@ -115,7 +115,7 @@ peso = get_sample(athletes, 'weight', n=3000)
 def q1():
     # Retorne aqui o resultado da questão 1.
     resultado = sct.shapiro(altura)
-    return resultado[1]>0.05
+    return resultado[1] > 0.05
 
 
 # __Para refletir__:

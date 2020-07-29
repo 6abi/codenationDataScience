@@ -260,20 +260,24 @@ def q6():
     
     return int(newsgroups_counts[:, count_vectorizer.vocabulary_['phone']].sum())
 
-
 # ## Questão 7
 # 
 # Aplique `TfidfVectorizer` ao _data set_ `newsgroups` e descubra o TF-IDF da palavra _phone_. Responda como um único escalar arredondado para três casas decimais.
 
 # In[31]:
 
-
 def q7():
     # Retorne aqui o resultado da questão 4.
     tfidf_vectorizer = TfidfVectorizer()
     newsgroups_counts = tfidf_vectorizer.fit_transform(newsgroup.data)
     return float(newsgroups_counts[:, tfidf_vectorizer.vocabulary_['phone']].sum().round(3))
-
+q1()
+q2()
+q3()
+q4()
+q5()
+q6()
+q7()
 
 # In[ ]:
 
